@@ -1,2 +1,2 @@
 ---
-# defaults file for template
+kubectl_url: https://dl.k8s.io/release/{{ kubectl_version }}/bin/{{ kubectl_os }}/{{ kubectl_arch }}/kubectl

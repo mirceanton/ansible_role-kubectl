@@ -1,0 +1,8 @@
+---
+kubectl_os: linux
+kubectl_version: 1.26.0
+kubectl_arch: arm64
+kubectl_path: /usr/local/bin/kubectl
+kubectl_mode: 0755
+kubectl_owner: root
+kubectl_group: root

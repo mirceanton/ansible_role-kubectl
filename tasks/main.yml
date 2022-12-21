@@ -1,2 +1,8 @@
 ---
-# tasks file for template
+- name: Download and install the kubectl precompiled binary
+  ansible.builtin.get_url:
+    url: "{{ kubectl_url }}"
+    dest: "{{ kubectl_path }}"
+    mode: "{{ kubectl_mode }}"
+    owner: "{{ kubectl_owner }}"
+    group: "{{ kubectl_group }}"
